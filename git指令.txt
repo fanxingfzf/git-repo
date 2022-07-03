@@ -14,3 +14,11 @@ $ git remote -v
 
 克隆远端项目
 git clone 远端地址
+
+git push github-origin master指令输入被拒绝推送解决：
+
+①先输入：git pull github-origin master
+ ②输入:git commit -m"日志"
+③再次输入 git pull github-origin master
+④再输入：git push github-origin master
+⑤推送成功，皆大欢喜~~~
